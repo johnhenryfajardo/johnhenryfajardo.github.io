@@ -216,22 +216,25 @@ body {
   text-align: left;
 }
 
-/* Roast types */
+/* Personal Information */
 .green {
-  background-color: rgb(58, 132, 198);
-}
+	background-color: rgb(145, 133, 161);
+	}
+	
 
 .light {
-  background-color: rgb(4, 122, 86);
-}
-
+  background-color: rgb(115, 100, 135);
+	}
+	
 .city {
-  background-color: rgb(241, 109, 49);
-}
+  background-color: rgb(91, 73, 115);
+	}
+	
 
 .italian {
-  background-color: rgb(215, 78, 63);
-}
+	background-color: rgb(69, 52, 85);
+	}
+	
 
 /* Typography */
 h1 {
