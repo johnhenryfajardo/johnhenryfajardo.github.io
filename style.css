@@ -1,6 +1,20 @@
 body {
-	  padding: 0;
-	  margin: 0;
+  padding: 55;
+  margin: 55;
+  background: #F7F7F7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+}
+
+/** Header styles **/
+.header {
+  background-image: url(body {
+	  padding: 10;
+	  margin: 10;
 	  background: #F7F7F7;
 	  /* Old browsers */
 	  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
@@ -10,10 +24,13 @@ body {
 	  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 	}
 	
+.boxed {
+  border: 1px solid gray ;
+}
 
 	/** Header styles **/
 	.header {
-	  background-image: url(https://lh3.googleusercontent.com/3xCRwBdXZClDOckGD1fy4H3bGicI6YTXZLdbUaBIpgR69ExzbfQgY5-aHTC35ur013STsqR1GHZW-Ut-fSeJuReUD6Z_quvEMI_-z9JcwrBevr_aOXumo6zui857n9qkgZBD0TwbtRrgEh3h1ZwJLZoz-S8rwUgveIv6lWwvoytbbRNz30e6v78Zu_27m1Nwuv0l-jYohdA8EGNW_6LZEpEuTWSjbV0IUjyOPEISxcL40XINzbQgU07QXRGXdrDWC9DgYCarlw4AGGwWfMobdkzDkQirJK1wYjx551v6wPft1KWlDKNoZrooQLDSEA5uzNlE9M3lDxDpEygBzIQTG4H4YkoxlPPbrsRIGE6Ei_i7i_DApMhL9zzwV6mZP_IU1HcOCPJ4Ani24qut0RKzFb8mdNRVxdKDV-ggPfRbq1TTzM7v53VTdnhtPrdkSXBpRTXXOxLhzU8WBgGEyW4Bmc_7QgJbLD7T0Lv3gN9rxb5IvavKdbMQpGn97e3smorsLlZ-Q52qfU8qk2NN_ogZysYwmvt_vEh52ISgY8KBDUnslDxRee7ECt3j-AWO70iLtXvRAV_V2anfZ8k9WhqYm6fFTkzc3yFS5QR9rGQ=w774-h581-no);
+	  background-image: url(https://lh3.googleusercontent.com/3xCRwBdXZClDOckGD1fy4H3bGicI6YTXZLdbUaBIpgR69ExzbfQgY5-aHTC35ur013STsqR1GHZW-Ut-fSeJuReUD6Z_quvEMI_-z9JcwrBevr_aOXumo6zui857n9qkgZBD0TwbtRrgEh3h1ZwJLZoz-S8rwUgveIv6lWwvoytbbRNz30e6v78Zu_27m1Nwuv0l-jYohdA8EGNW_6LZEpEuTWSjbV0IUjyOPEISxcL40XINzbQgU07QXRGXdrDWC9DgYCarlw4AGGwWfMobdkzDkQirJK1wYjx551v6wPft1KWlDKNoZrooQLDSEA5uzNlE9M3lDxDpEygBzIQTG4H4YkoxlPPbrsRIGE6Ei_i7i_DApMhL9zzwV6mZP_IU1HcOCPJ4Ani24qut0RKzFb8mdNRVxdKDV-ggPfRbq1TTzM7v53VTdnhtPrdkSXBpRTXXOxLhzU8WBgGEyW4Bmc_7QgJbLD7T0Lv3gN9rxb5IvavKdbMQpGn97e3smorsLlZ-Q52qfU8qk2NN_ogZysYwmvt_vEh52ISgY8KBDUnslDxRee7ECt3j-AWO70iLtXvRAV_V2anfZ8k9WhqYm6fFTkzc3yFS5QR9rGQ=w732-h551-no);
 	  height: 400px;
 	  background-position: center center;
 	}
@@ -166,3 +183,138 @@ body {
 	  text-align: center;
 	  font-size: small;
 	}
+);
+  height: 400px;
+  background-position: center center;
+}
+
+.roasting {
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.roasting p {
+  color: #938E89;
+  text-align: center;
+  line-height: 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.spectrum div {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* Roast types */
+.green {
+  background-color: rgb(58, 132, 198);
+}
+
+.light {
+  background-color: rgb(4, 122, 86);
+}
+
+.city {
+  background-color: rgb(241, 109, 49);
+}
+
+.italian {
+  background-color: rgb(215, 78, 63);
+}
+
+/* Typography */
+h1 {
+  color: #FFE9CD;
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;5A1
+  position: relative;
+  text-align: right;
+  top: 80%;
+}
+
+h2 {
+  color: #FFC6B8;
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #857C81;
+font-family: 'Alegreya Sans SC', serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  color: #B7D7D9;
+font-family: 'Alegreya Sans SC', serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: .2em;
+}
+
+h5 {
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+/* Page elements */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 75%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #B09994;
+  line-height: 32px;
+font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #E5EBE9;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+footer p {
+  text-align: center;
+  font-size: small;
+}
