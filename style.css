@@ -24,7 +24,6 @@ body {
 	  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 	}
 	
-
 	/** Header styles **/
 	.header {
 	  background-image: url(https://lh3.googleusercontent.com/3xCRwBdXZClDOckGD1fy4H3bGicI6YTXZLdbUaBIpgR69ExzbfQgY5-aHTC35ur013STsqR1GHZW-Ut-fSeJuReUD6Z_quvEMI_-z9JcwrBevr_aOXumo6zui857n9qkgZBD0TwbtRrgEh3h1ZwJLZoz-S8rwUgveIv6lWwvoytbbRNz30e6v78Zu_27m1Nwuv0l-jYohdA8EGNW_6LZEpEuTWSjbV0IUjyOPEISxcL40XINzbQgU07QXRGXdrDWC9DgYCarlw4AGGwWfMobdkzDkQirJK1wYjx551v6wPft1KWlDKNoZrooQLDSEA5uzNlE9M3lDxDpEygBzIQTG4H4YkoxlPPbrsRIGE6Ei_i7i_DApMhL9zzwV6mZP_IU1HcOCPJ4Ani24qut0RKzFb8mdNRVxdKDV-ggPfRbq1TTzM7v53VTdnhtPrdkSXBpRTXXOxLhzU8WBgGEyW4Bmc_7QgJbLD7T0Lv3gN9rxb5IvavKdbMQpGn97e3smorsLlZ-Q52qfU8qk2NN_ogZysYwmvt_vEh52ISgY8KBDUnslDxRee7ECt3j-AWO70iLtXvRAV_V2anfZ8k9WhqYm6fFTkzc3yFS5QR9rGQ=w732-h551-no);
@@ -71,7 +70,7 @@ body {
 
 	/* Personal Information */
 	.green {
-	  background-color: rgb(145, 133, 180);
+	  background-color: rgb(145, 133, 161);
 	}
 	
 
