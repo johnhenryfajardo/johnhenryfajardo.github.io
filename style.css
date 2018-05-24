@@ -42,7 +42,7 @@ body {
 
 	.spectrum div {
 	  font: inherit;
-	  padding: 30 20px;
+	  padding: 0 20px;
 	  color: #FFFFFF;
 	  overflow: auto;
 	  opacity: 0.9;
